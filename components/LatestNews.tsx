@@ -1,16 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
-const API = '';
+import { mockApi } from '../lib/mock-api';
 
 export default function LatestNews() {
-  const [news, setNews] = useState<any[]>([]);
-
-  useEffect(() => {
-    fetch(`${API}/api/public/announcements`).then(r => r.json()).then(d => setNews(Array.isArray(d) ? d.slice(0, 4) : [])).catch(() => {});
-  }, []);
+  const news = mockApi.getAnnouncements().slice(0, 4);
 
   return (
     <div>
@@ -18,11 +12,8 @@ export default function LatestNews() {
         <h2 className="section-title" style={{ marginBottom: 0 }}>Latest News</h2>
         <Link href="/announcements" style={{ color: '#c8a84b', fontSize: '0.85rem', textDecoration: 'none', fontWeight: 600 }}>View all →</Link>
       </div>
-
       {news.length === 0 ? (
-        <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '12px', padding: '2rem', textAlign: 'center', color: '#6b7280' }}>
-          No announcements yet
-        </div>
+        <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '12px', padding: '2rem', textAlign: 'center', color: '#6b7280' }}>No announcements yet</div>
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
           {news.map((a: any) => (

@@ -1,42 +1,28 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-const API = '';
+import { mockApi } from '../lib/mock-api';
 
 export default function StatsTicker() {
-  const [stats, setStats] = useState({ matches: 6, players: 30, runs: 1049, wickets: 42, hundreds: 0, fifties: 4, tournaments: 1 });
-
-  useEffect(() => {
-    fetch(`${API}/api/public/archive`).then(r => r.json()).then((archive: any[]) => {
-      if (!Array.isArray(archive)) return;
-      let totalMatches = 0, totalTournaments = archive.length;
-      archive.forEach(t => { totalMatches += t.finalPointsTable?.reduce((s: number, e: any) => s + e.played, 0) / 2 || 0; });
-      setStats(s => ({ ...s, matches: Math.max(6, totalMatches), tournaments: Math.max(1, totalTournaments) }));
-    }).catch(() => {});
-  }, []);
+  const archive = mockApi.getArchive();
+  const totalMatches = archive.reduce((sum: number, t: any) => sum + (Math.round(t.finalPointsTable?.reduce((s: number, e: any) => s + e.played, 0) / 2) || 0), 0) + 6;
 
   const items = [
-    { label: 'Total Matches', value: stats.matches, icon: '🏏' },
-    { label: 'Players', value: stats.players, icon: '👤' },
-    { label: 'Runs', value: stats.runs.toLocaleString(), icon: '⚡' },
-    { label: 'Wickets', value: stats.wickets, icon: '🎯' },
-    { label: '100s', value: stats.hundreds, icon: '💯' },
-    { label: '50s', value: stats.fifties, icon: '🔥' },
-    { label: 'Tournaments', value: stats.tournaments, icon: '🏆' },
+    { label: 'Total Matches', value: totalMatches, icon: '🏏' },
+    { label: 'Players', value: 30, icon: '👤' },
+    { label: 'Runs', value: '1,049', icon: '⚡' },
+    { label: 'Wickets', value: 42, icon: '🎯' },
+    { label: '100s', value: 0, icon: '💯' },
+    { label: '50s', value: 4, icon: '🔥' },
+    { label: 'Tournaments', value: archive.length + 1, icon: '🏆' },
     { label: 'Teams', value: 6, icon: '👥' },
   ];
 
   return (
     <div style={{ background: '#c8a84b', overflow: 'hidden' }}>
-      <div style={{ display: 'flex', borderBottom: '1px solid rgba(0,0,0,0.1)' }}>
-        {/* Label */}
-        <div style={{ background: '#000', padding: '0 1.5rem', display: 'flex', alignItems: 'center', flexShrink: 0, minWidth: '180px' }}>
-          <span style={{ fontFamily: 'Oswald, sans-serif', color: '#c8a84b', fontSize: '0.8rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-            🏏 Season Stats
-          </span>
+      <div style={{ display: 'flex' }}>
+        <div className="ticker-label" style={{ background: '#000', padding: '0 1.5rem', display: 'flex', alignItems: 'center', flexShrink: 0, minWidth: '180px' }}>
+          <span style={{ fontFamily: 'Oswald, sans-serif', color: '#c8a84b', fontSize: '0.8rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em' }}>🏏 Season Stats</span>
         </div>
-        {/* Scrolling stats */}
         <div className="ticker-wrap" style={{ flex: 1 }}>
           <div className="ticker-content">
             {[...items, ...items].map((item, i) => (

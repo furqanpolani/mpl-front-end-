@@ -1,38 +1,22 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
-
-const API = '';
+import { mockApi } from '../lib/mock-api';
 
 export default function HomeContent() {
-  const [fixtures, setFixtures] = useState<any[]>([]);
-  const [news, setNews] = useState<any[]>([]);
-  const [pointsTable, setPointsTable] = useState<any[]>([]);
-  const [tournamentId, setTournamentId] = useState<string | null>(null);
+  const hero = mockApi.getHero();
+  const news = mockApi.getAnnouncements().slice(0, 3);
+  const cricketTournaments = mockApi.getCricketTournaments();
+  const activeTournament = cricketTournaments[0] ?? null;
+  const tournamentId = activeTournament?.id ?? null;
 
-  useEffect(() => {
-    fetch(`${API}/api/public/hero`).then(r => r.json()).then(d => {
-      const all = [...(d.liveFixtures ?? []).map((f: any) => ({ ...f, status: 'live' })), ...(d.upcomingFixtures ?? []).map((f: any) => ({ ...f, status: 'upcoming' }))];
-      setFixtures(all.slice(0, 5));
-    }).catch(() => {});
-
-    fetch(`${API}/api/public/announcements`).then(r => r.json()).then(d => setNews(Array.isArray(d) ? d.slice(0, 3) : [])).catch(() => {});
-
-    fetch(`${API}/api/public/sports`).then(r => r.json()).then(async (sports: any[]) => {
-      const cricket = sports.find(s => s.slug === 'cricket');
-      if (!cricket) return;
-      const res = await fetch(`${API}/api/public/tournaments?sport=${cricket.id}`);
-      const tournaments = await res.json();
-      if (tournaments.length > 0) {
-        const tid = tournaments[0].id;
-        setTournamentId(tid);
-        const ptRes = await fetch(`${API}/api/public/tournaments/${tid}/points-table`);
-        const pt = await ptRes.json();
-        setPointsTable(Array.isArray(pt) ? pt : []);
-      }
-    }).catch(() => {});
-  }, []);
+  const pointsTable = tournamentId ? mockApi.getPointsTable(tournamentId) : [];
+  const fixturesData = tournamentId ? mockApi.getFixturesByTournament(tournamentId) : { upcoming: [], live: [], completed: [] };
+  const fixtures = [
+    ...(fixturesData.live ?? []).map((f: any) => ({ ...f, status: 'live' })),
+    ...(fixturesData.upcoming ?? []).map((f: any) => ({ ...f, status: 'upcoming' })),
+  ].slice(0, 5);
 
   return (
     <div style={{ background: '#0a0a0f' }}>
@@ -48,9 +32,6 @@ export default function HomeContent() {
             <p style={{ color: '#9ca3af', lineHeight: 1.9, marginBottom: '1.25rem', fontSize: '0.95rem' }}>
               Memon Premier League is providing premier level cricket and is determined to build diverse communities, promote, encourage, foster and cultivate interest in the sport of cricket at all levels.
             </p>
-            <p style={{ color: '#6b7280', lineHeight: 1.9, marginBottom: '1.75rem', fontSize: '0.875rem' }}>
-              Whether you are a professional pursuing growth or an enthusiastic contributor, our winning system offers an ideal platform for you.
-            </p>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
               <Link href="/marketplace" className="btn-gold">Join Now</Link>
               <Link href="/about" className="btn-outline">Learn More</Link>
@@ -58,7 +39,6 @@ export default function HomeContent() {
           </div>
           <div>
             <div style={{ background: 'linear-gradient(135deg, #111118, #16161f)', border: '1px solid #1e1e2e', borderRadius: '16px', padding: '1.75rem', position: 'relative', overflow: 'hidden' }}>
-              <div style={{ position: 'absolute', top: 0, right: 0, width: '100px', height: '100px', background: 'radial-gradient(circle, rgba(200,168,75,0.12), transparent)', borderRadius: '50%', transform: 'translate(30%, -30%)' }} />
               <div style={{ color: '#c8a84b', fontSize: '0.72rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.15em', marginBottom: '0.75rem', fontFamily: 'Oswald, sans-serif' }}>Summer Season 2025</div>
               <div style={{ fontFamily: 'Oswald, sans-serif', color: '#fff', fontSize: '1.35rem', fontWeight: 600, marginBottom: '0.5rem' }}>MPL T20 Championship</div>
               <div style={{ color: '#6b7280', fontSize: '0.85rem', marginBottom: '1.25rem' }}>May to October 2025 · 6 Teams · Round Robin + Knockout</div>
@@ -88,9 +68,7 @@ export default function HomeContent() {
             ) : (
               <div style={{ borderRadius: '10px', overflow: 'hidden', border: '1px solid #1e1e2e', overflowX: 'auto' }}>
                 <table className="mpl-table" style={{ minWidth: '400px' }}>
-                  <thead>
-                    <tr>{['#', 'Team', 'P', 'W', 'L', 'Pts', 'NRR'].map(h => <th key={h}>{h}</th>)}</tr>
-                  </thead>
+                  <thead><tr>{['#', 'Team', 'P', 'W', 'L', 'Pts', 'NRR'].map(h => <th key={h}>{h}</th>)}</tr></thead>
                   <tbody>
                     {pointsTable.map((e: any, i: number) => (
                       <tr key={e.teamId}>
@@ -154,36 +132,26 @@ export default function HomeContent() {
           <h2 className="section-title" style={{ marginBottom: 0 }}>Latest News</h2>
           <Link href="/announcements" style={{ color: '#c8a84b', fontSize: '0.78rem', fontWeight: 600, textDecoration: 'none', textTransform: 'uppercase', letterSpacing: '0.08em' }}>All News →</Link>
         </div>
-        {news.length === 0 ? (
-          <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '10px', padding: '3rem', textAlign: 'center', color: '#4b5563' }}>No news yet</div>
-        ) : (
-          <div className="news-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
-            {news.map((a: any, i: number) => (
-              <div key={a.id} className="mpl-card" style={{ overflow: 'hidden' }}>
-                <div style={{ height: '180px', position: 'relative', overflow: 'hidden' }}>
-                  {a.imageUrl ? (
-                    <img src={a.imageUrl} alt={a.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                  ) : (
-                    <div style={{ width: '100%', height: '100%', background: `linear-gradient(135deg, hsl(${i * 40 + 200}, 40%, 12%), hsl(${i * 40 + 220}, 40%, 8%))`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                      <span style={{ fontSize: '2.5rem' }}>🏏</span>
-                    </div>
-                  )}
-                  <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(17,17,24,0.7), transparent)' }} />
-                </div>
-                <div style={{ padding: '1.25rem' }}>
-                  <div style={{ color: '#c8a84b', fontSize: '0.68rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>
-                    {new Date(a.publishedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                  </div>
-                  <h3 style={{ color: '#fff', fontWeight: 700, fontSize: '0.92rem', lineHeight: 1.4, marginBottom: '0.5rem' }}>{a.title}</h3>
-                  <p style={{ color: '#6b7280', fontSize: '0.82rem', lineHeight: 1.6 }}>{a.body?.slice(0, 100)}{a.body?.length > 100 ? '…' : ''}</p>
-                </div>
+        <div className="news-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+          {news.map((a: any, i: number) => (
+            <div key={a.id} className="mpl-card" style={{ overflow: 'hidden' }}>
+              <div style={{ height: '180px', position: 'relative', overflow: 'hidden' }}>
+                {a.imageUrl ? <img src={a.imageUrl} alt={a.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  : <div style={{ width: '100%', height: '100%', background: `linear-gradient(135deg, hsl(${i * 40 + 200}, 40%, 12%), hsl(${i * 40 + 220}, 40%, 8%))`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><span style={{ fontSize: '2.5rem' }}>🏏</span></div>}
               </div>
-            ))}
-          </div>
-        )}
+              <div style={{ padding: '1.25rem' }}>
+                <div style={{ color: '#c8a84b', fontSize: '0.68rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>
+                  {new Date(a.publishedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                </div>
+                <h3 style={{ color: '#fff', fontWeight: 700, fontSize: '0.92rem', lineHeight: 1.4, marginBottom: '0.5rem' }}>{a.title}</h3>
+                <p style={{ color: '#6b7280', fontSize: '0.82rem', lineHeight: 1.6 }}>{a.body?.slice(0, 100)}{a.body?.length > 100 ? '…' : ''}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
-      {/* CTA Banner */}
+      {/* CTA */}
       <section style={{ background: '#0d0d14', borderTop: '1px solid #1e1e2e', borderBottom: '1px solid #1e1e2e', padding: '4rem 0', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', inset: 0, backgroundImage: `url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=1200&q=40')`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 0.05 }} />
         <div style={{ maxWidth: '680px', margin: '0 auto', padding: '0 1.5rem', textAlign: 'center', position: 'relative' }}>
@@ -191,12 +159,8 @@ export default function HomeContent() {
           <h2 style={{ fontFamily: 'Oswald, sans-serif', fontSize: 'clamp(1.75rem, 4vw, 2.25rem)', fontWeight: 700, color: '#fff', textTransform: 'uppercase', lineHeight: 1.1, marginBottom: '1rem' }}>
             OWN A TEAM.<br /><span style={{ color: '#c8a84b' }}>BE THE BOSS.</span>
           </h2>
-          <p style={{ color: '#9ca3af', marginBottom: '2rem', lineHeight: 1.7, fontSize: '0.95rem' }}>
-            Purchase one of our 6 franchise teams for just $2,000 and become an official MPL team owner.
-          </p>
-          <Link href="/marketplace" className="btn-gold" style={{ fontSize: '1rem', padding: '14px 36px' }}>
-            View Available Teams
-          </Link>
+          <p style={{ color: '#9ca3af', marginBottom: '2rem', lineHeight: 1.7, fontSize: '0.95rem' }}>Purchase one of our 6 franchise teams for just $2,000 and become an official MPL team owner.</p>
+          <Link href="/marketplace" className="btn-gold" style={{ fontSize: '1rem', padding: '14px 36px' }}>View Available Teams</Link>
         </div>
       </section>
     </div>

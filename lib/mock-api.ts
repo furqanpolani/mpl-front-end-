@@ -1,7 +1,3 @@
-/**
- * Mock API — serves static JSON data for demo mode (no backend required).
- * All data was exported from the live database.
- */
 import data from './mpl-data.json';
 
 const d = data as any;
@@ -19,6 +15,8 @@ export const mockApi = {
 
   getMarketplaceTeams: () => d.marketplaceTeams ?? [],
 
+  getCricketTournaments: () => d.cricketTournaments ?? [],
+
   getTournamentsBySport: (sportId: string) =>
     (d.cricketTournaments ?? []).filter((t: any) => t.sportId === sportId || t.sport?.id === sportId),
 
@@ -34,24 +32,12 @@ export const mockApi = {
   getScorecard: (fixtureId: string) =>
     d.scorecards?.[fixtureId] ?? null,
 
-  // Find tournament by sport slug
+  getSportBySlug: (slug: string) =>
+    (d.sports ?? []).find((s: any) => s.slug === slug) ?? null,
+
   getTournamentsBySportSlug: (slug: string) => {
     const sport = (d.sports ?? []).find((s: any) => s.slug === slug);
     if (!sport) return [];
     return (d.cricketTournaments ?? []).filter((t: any) => t.sportId === sport.id || t.sport?.id === sport.id);
-  },
-
-  getSportBySlug: (slug: string) =>
-    (d.sports ?? []).find((s: any) => s.slug === slug) ?? null,
-
-  // Get all fixtures across all tournaments for hero
-  getAllFixtures: () => {
-    const all: any[] = [];
-    Object.entries(d.tournamentData ?? {}).forEach(([key, val]: any) => {
-      if (key.startsWith('fixtures_')) {
-        all.push(...(val.upcoming ?? []), ...(val.live ?? []), ...(val.completed ?? []));
-      }
-    });
-    return all;
   },
 };

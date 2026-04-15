@@ -1,26 +1,20 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-
-const API = '';
+import { mockApi } from '../lib/mock-api';
 
 export default function UpcomingFixtures() {
-  const [fixtures, setFixtures] = useState<any[]>([]);
-
-  useEffect(() => {
-    fetch(`${API}/api/public/hero`).then(r => r.json()).then(d => {
-      setFixtures([...(d.liveFixtures ?? []).map((f: any) => ({ ...f, status: 'live' })), ...(d.upcomingFixtures ?? []).map((f: any) => ({ ...f, status: 'upcoming' }))]);
-    }).catch(() => {});
-  }, []);
+  const hero = mockApi.getHero();
+  const fixtures = [
+    ...(hero.liveFixtures ?? []).map((f: any) => ({ ...f, status: 'live' })),
+    ...(hero.upcomingFixtures ?? []).map((f: any) => ({ ...f, status: 'upcoming' })),
+  ];
 
   return (
     <div>
       <h2 className="section-title">Upcoming Fixtures</h2>
       {fixtures.length === 0 ? (
-        <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '12px', padding: '2rem', textAlign: 'center', color: '#6b7280' }}>
-          No fixtures scheduled yet
-        </div>
+        <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '12px', padding: '2rem', textAlign: 'center', color: '#6b7280' }}>No fixtures scheduled yet</div>
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
           {fixtures.slice(0, 5).map((f: any) => (

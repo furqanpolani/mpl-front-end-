@@ -1,8 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-const API = '';
+import { mockApi } from '../../lib/mock-api';
 
 const FALLBACK_IMAGES = [
   'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
@@ -12,15 +10,7 @@ const FALLBACK_IMAGES = [
 ];
 
 export default function AnnouncementsPage() {
-  const [items, setItems] = useState<any[]>([]);
-
-  useEffect(() => {
-    const load = () => fetch(`${API}/api/public/announcements`).then(r => r.json()).then(d => setItems(Array.isArray(d) ? d : [])).catch(() => {});
-    load();
-    const t = setInterval(load, 60_000);
-    return () => clearInterval(t);
-  }, []);
-
+  const items = mockApi.getAnnouncements();
   const featured = items[0];
   const rest = items.slice(1);
 
@@ -37,10 +27,9 @@ export default function AnnouncementsPage() {
         <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '12px', padding: '3rem', textAlign: 'center', color: '#6b7280' }}>No announcements yet.</div>
       ) : (
         <>
-          {/* Featured article */}
           {featured && (
             <div style={{ background: '#111118', border: '1px solid #1e1e2e', borderRadius: '16px', overflow: 'hidden', marginBottom: '2rem' }}>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
+              <div className="grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
                 <div style={{ height: '320px', position: 'relative', overflow: 'hidden' }}>
                   <img src={featured.imageUrl ?? FALLBACK_IMAGES[0]} alt={featured.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, transparent, #111118)' }} />
@@ -55,13 +44,11 @@ export default function AnnouncementsPage() {
               </div>
             </div>
           )}
-
-          {/* Rest of articles */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+          <div className="news-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {rest.map((a: any, i: number) => (
               <div key={a.id} className="mpl-card" style={{ overflow: 'hidden' }}>
                 <div style={{ height: '180px', position: 'relative', overflow: 'hidden' }}>
-                  <img src={a.imageUrl ?? FALLBACK_IMAGES[(i + 1) % FALLBACK_IMAGES.length]} alt={a.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s' }} />
+                  <img src={a.imageUrl ?? FALLBACK_IMAGES[(i + 1) % FALLBACK_IMAGES.length]} alt={a.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(17,17,24,0.8), transparent)' }} />
                 </div>
                 <div style={{ padding: '1.25rem' }}>
