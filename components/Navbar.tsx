@@ -6,7 +6,7 @@ import { mockApi } from '../lib/mock-api';
 
 export default function Navbar() {
   const [sports] = useState(() => mockApi.getSports());
-  const [tournaments] = useState(() => mockApi.cricketTournaments ?? []);
+  const [tournaments] = useState(() => mockApi.getCricketTournaments());
   const [tournamentOpen, setTournamentOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileTournamentOpen, setMobileTournamentOpen] = useState(false);
