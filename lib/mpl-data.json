@@ -1,0 +1,4235 @@
+{
+  "sports": [
+    {
+      "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+      "name": "Cricket",
+      "slug": "cricket",
+      "isActive": true,
+      "createdAt": "2026-04-11T22:46:57.475Z"
+    },
+    {
+      "id": "4ac166c8-d87b-4cfb-9f61-33fc021ed4c1",
+      "name": "Paddle",
+      "slug": "paddle",
+      "isActive": true,
+      "createdAt": "2026-04-11T22:46:57.498Z"
+    }
+  ],
+  "hero": {
+    "headline": "MPL T20 Championship \u2014 Season 1",
+    "liveFixtures": [],
+    "upcomingFixtures": [
+      {
+        "id": "c19e6ce1-5e5e-47af-9b48-501a14706b8a",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "scheduledAt": "2025-06-05T14:00:00.000Z",
+        "venue": "National Stadium, Karachi"
+      },
+      {
+        "id": "425da4f0-4d77-481c-836c-e65b24986950",
+        "homeTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "awayTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "scheduledAt": "2025-06-08T14:00:00.000Z",
+        "venue": "Arbab Niaz Stadium, Peshawar"
+      },
+      {
+        "id": "0ec6602d-e283-4bbc-89b1-a84871e26132",
+        "homeTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "scheduledAt": "2025-06-12T14:00:00.000Z",
+        "venue": "Gaddafi Stadium, Lahore"
+      },
+      {
+        "id": "d6b4bfd1-c3dc-4176-84ed-e16d031ff7cb",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "scheduledAt": "2025-06-15T14:00:00.000Z",
+        "venue": "Rawalpindi Cricket Stadium"
+      },
+      {
+        "id": "2d4a8b07-cabe-4ef9-8d34-98326d1b5d9b",
+        "homeTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "scheduledAt": "2025-06-19T14:00:00.000Z",
+        "venue": "Bugti Stadium, Quetta"
+      }
+    ],
+    "latestAnnouncements": [
+      {
+        "id": "fd965f0c-d55b-4cb7-9309-091c1e350bd7",
+        "title": "\ud83c\udfd3 MPL Paddle Premier League \u2014 Coming December 2025!",
+        "body": "MPL is proud to announce the launch of the MPL Paddle Premier League starting December 2025! This will be the first professional paddle league in our community.\n\n\ud83d\udcf9 Promo video: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nThe league will feature:\n\u2022 6 teams competing over 3 months\n\u2022 Full live scoring on the MPL platform\n\u2022 Team ownership available for $2,000\n\u2022 Prize pool: $5,000\n\nPaddle is one of the fastest growing sports in our community. We are excited to bring it to the MPL platform with the same quality and professionalism as our cricket league.",
+        "publishedAt": "2025-07-05T00:00:00.000Z",
+        "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      },
+      {
+        "id": "665ed09a-9fff-4b23-b3f2-f50b5356584e",
+        "title": "\ud83d\udcc5 MPL Champions Trophy 2026 \u2014 Registration Open!",
+        "body": "The biggest MPL tournament yet is coming in 2026! The MPL Champions Trophy will feature all 6 franchise teams competing in a round-robin format followed by semi-finals and a grand final.\n\n\ud83d\udcf9 Announcement video: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nKey dates:\n\u2022 Registration deadline: February 15, 2026\n\u2022 Tournament starts: March 1, 2026\n\u2022 Grand Final: June 30, 2026\n\nPrize pool: $10,000 for the winning team. Register your team now and be part of MPL history!",
+        "publishedAt": "2025-07-01T00:00:00.000Z",
+        "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80"
+      },
+      {
+        "id": "28d29887-1636-4b59-9195-426190e19edc",
+        "title": "MPL Paddle Division \u2014 Coming December 2025 \ud83c\udfd3",
+        "body": "MPL is proud to announce the launch of our Paddle division starting December 2025. The MPL Paddle Championship will feature 6 teams competing in a league and knockout format. Paddle is one of the fastest growing sports in our community and we are excited to bring it to the MPL platform with full live scoring and team ownership.",
+        "publishedAt": "2025-06-10T00:00:00.000Z",
+        "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+      }
+    ]
+  },
+  "announcements": [
+    {
+      "id": "fd965f0c-d55b-4cb7-9309-091c1e350bd7",
+      "title": "\ud83c\udfd3 MPL Paddle Premier League \u2014 Coming December 2025!",
+      "body": "MPL is proud to announce the launch of the MPL Paddle Premier League starting December 2025! This will be the first professional paddle league in our community.\n\n\ud83d\udcf9 Promo video: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nThe league will feature:\n\u2022 6 teams competing over 3 months\n\u2022 Full live scoring on the MPL platform\n\u2022 Team ownership available for $2,000\n\u2022 Prize pool: $5,000\n\nPaddle is one of the fastest growing sports in our community. We are excited to bring it to the MPL platform with the same quality and professionalism as our cricket league.",
+      "publishedAt": "2025-07-05T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "665ed09a-9fff-4b23-b3f2-f50b5356584e",
+      "title": "\ud83d\udcc5 MPL Champions Trophy 2026 \u2014 Registration Open!",
+      "body": "The biggest MPL tournament yet is coming in 2026! The MPL Champions Trophy will feature all 6 franchise teams competing in a round-robin format followed by semi-finals and a grand final.\n\n\ud83d\udcf9 Announcement video: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nKey dates:\n\u2022 Registration deadline: February 15, 2026\n\u2022 Tournament starts: March 1, 2026\n\u2022 Grand Final: June 30, 2026\n\nPrize pool: $10,000 for the winning team. Register your team now and be part of MPL history!",
+      "publishedAt": "2025-07-01T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80"
+    },
+    {
+      "id": "28d29887-1636-4b59-9195-426190e19edc",
+      "title": "MPL Paddle Division \u2014 Coming December 2025 \ud83c\udfd3",
+      "body": "MPL is proud to announce the launch of our Paddle division starting December 2025. The MPL Paddle Championship will feature 6 teams competing in a league and knockout format. Paddle is one of the fastest growing sports in our community and we are excited to bring it to the MPL platform with full live scoring and team ownership.",
+      "publishedAt": "2025-06-10T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "7c106fa2-6fb1-45a4-951f-faa26cb348ba",
+      "title": "MPL Youth Academy \u2014 Nurturing Tomorrow's Stars",
+      "body": "MPL is launching a Youth Academy program for players aged 12-18. The academy will provide professional coaching, match experience, and a pathway to the main MPL league. Applications are open for the 2026 intake. This is our commitment to growing cricket at the grassroots level in our community.",
+      "publishedAt": "2025-06-05T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80"
+    },
+    {
+      "id": "ac083df0-821d-43ed-a440-5cb8bf299b86",
+      "title": "MPL Hardball T30 Cup \u2014 Registration Now Open",
+      "body": "We are thrilled to announce that player and team registrations for the MPL Hardball T30 Cup are now open! The tournament kicks off November 2025 and will feature 6 teams competing in a round-robin format. Register your team today and be part of the next chapter of MPL cricket.",
+      "publishedAt": "2025-06-01T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80"
+    },
+    {
+      "id": "f80dc099-305b-464f-bc44-a7abd0bd7025",
+      "title": "Player Registration Open for Season 2",
+      "body": "Planning ahead! MPL is now accepting player registrations for Season 2. Whether you are a professional cricketer or an enthusiastic amateur, MPL welcomes players of all skill levels. Register now to secure your spot in the next season.",
+      "publishedAt": "2025-05-28T00:00:00.000Z",
+      "imageUrl": null
+    },
+    {
+      "id": "f636a0a3-8225-4c40-9c6f-730be510dabd",
+      "title": "Islamabad United Win Thriller Against Lahore Lions",
+      "body": "Islamabad United chased down 144 in just 16.4 overs to beat Lahore Lions by 8 wickets. Shadab Khan led from the front with a brilliant 67* off 38 balls. The win puts Islamabad United in second place on the points table with 2 wins from 2 matches. A dominant performance that sent a message to the rest of the league.",
+      "publishedAt": "2025-05-19T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80"
+    },
+    {
+      "id": "11792e13-cb46-45a1-ade6-50d6e5751c07",
+      "title": "Quetta Gladiators vs Multan Sultans \u2014 Epic Encounter",
+      "body": "In one of the most thrilling matches of Season 1, Quetta Gladiators posted 201/5 against Multan Sultans. Shane Watson smashed 89 off 52 balls while Kevin Pietersen contributed 54. Multan fought hard but fell 23 runs short. A match that had fans on the edge of their seats from ball one.",
+      "publishedAt": "2025-05-16T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=800&q=80"
+    },
+    {
+      "id": "e979c770-35d3-4e2d-95c9-795f0fb27fc5",
+      "title": "Paddle Division Launching Soon! \ud83c\udfd3",
+      "body": "MPL is expanding! We are thrilled to announce the upcoming launch of our Paddle division. Competitive paddle tournaments with full league standings, live scoring, and team ownership will be available starting Season 2. Stay tuned for more details.",
+      "publishedAt": "2025-05-15T00:00:00.000Z",
+      "imageUrl": null
+    },
+    {
+      "id": "a4177d09-0f68-459a-ae1d-396e971cb7c2",
+      "title": "Karachi Kings vs Lahore Lions \u2014 Match Recap",
+      "body": "In a thrilling opener, Karachi Kings defeated Lahore Lions by 22 runs at National Stadium. Babar Azam led the charge with a brilliant 78 off 52 balls, while Shaheen Afridi took 3 wickets to seal the victory. A fantastic start to the season!",
+      "publishedAt": "2025-05-10T00:00:00.000Z",
+      "imageUrl": null
+    },
+    {
+      "id": "d67e7e89-e319-429a-abab-fe4554a670ef",
+      "title": "MPL Season 1 is officially LIVE! \ud83c\udfcf",
+      "body": "The Memon Premier League Season 1 has officially kicked off! Six powerhouse teams battle it out in the most exciting T20 cricket league. Follow live scores, track standings, and cheer for your favorite team. Season runs May to October 2025.",
+      "publishedAt": "2025-05-01T00:00:00.000Z",
+      "imageUrl": null
+    },
+    {
+      "id": "7391ee15-5453-4483-8759-2dbdd5325691",
+      "title": "Team Ownership Now Open \u2014 Own Your Team!",
+      "body": "MPL is proud to announce that team ownership slots are now available for purchase. For just $2,000, you can become the official owner of one of our six franchise teams. This is your chance to be part of cricket history. Limited slots available \u2014 act fast!",
+      "publishedAt": "2025-04-20T00:00:00.000Z",
+      "imageUrl": null
+    },
+    {
+      "id": "00af3921-1430-4ddb-8ee9-faf05f382c25",
+      "title": "MPL Inaugural Cup 2024 \u2014 Season Recap \ud83c\udfc6",
+      "body": "What an incredible inaugural season! Karachi Kings lifted the MPL Inaugural Cup after a nail-biting final against Quetta Gladiators. Babar Azam was named Player of the Tournament with 487 runs across 7 matches. Shaheen Afridi took 18 wickets to claim the Golden Ball. Thank you to all teams, players, fans, and sponsors who made Season 0 unforgettable.",
+      "publishedAt": "2024-10-16T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80"
+    },
+    {
+      "id": "d8df15c3-69cc-4df4-bcec-b98c54b1c016",
+      "title": "\ud83c\udfc6 MPL Winter T20 Blast 2023 \u2014 Full Highlights",
+      "body": "The MPL Winter T20 Blast 2023 was an unforgettable tournament! Karachi Kings dominated the competition, winning all 4 of their matches to lift the trophy. Here are the season highlights:\n\n\ud83d\udcf9 Watch the full final: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\n\ud83c\udfac Season highlights reel: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nTop performers:\n\u2022 Babar Azam (KK) \u2014 312 runs, avg 78.0\n\u2022 Shaheen Afridi (KK) \u2014 12 wickets\n\u2022 Kamran Akmal (PZ) \u2014 2 fifties\n\nThank you to all teams, players, and fans who made this season special!",
+      "publishedAt": "2024-02-01T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80"
+    },
+    {
+      "id": "62e4e649-c5a9-490c-9ba9-aa74f53fb31e",
+      "title": "\ud83c\udfcf Spring Cup 2023 \u2014 Quetta Gladiators Champions!",
+      "body": "Quetta Gladiators are the MPL Spring Cup 2023 champions! In a dominant campaign, they won all 4 matches including a thrilling final against Multan Sultans.\n\n\ud83d\udcf9 Final match highlights: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\n\ud83d\udcf8 Photo gallery from the final:\n\u2022 https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800\n\u2022 https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=800\n\nShane Watson was named Player of the Tournament with 267 runs and 8 wickets across 4 matches. A truly all-round performance!",
+      "publishedAt": "2023-08-01T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80"
+    },
+    {
+      "id": "23355690-80f5-4ab6-b878-5738b2e930e6",
+      "title": "\ud83c\udf19 Ramadan T20 Series 2023 \u2014 Lahore Lions Win!",
+      "body": "In the spirit of Ramadan, MPL hosted its annual Ramadan T20 Series. Lahore Lions edged out Karachi Kings in a nail-biting final by just 3 runs!\n\n\ud83d\udcf9 Match highlights: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nFakhar Zaman's 89 off 54 balls in the final was the innings of the tournament. The atmosphere at the ground was electric with fans cheering throughout.\n\nSpecial thanks to all sponsors who made this Ramadan event possible. See you next year!",
+      "publishedAt": "2023-04-22T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?w=800&q=80"
+    },
+    {
+      "id": "dcdec155-d776-4028-bfc8-408b60926a6a",
+      "title": "\ud83c\udf89 Eid Cricket Festival 2022 \u2014 A Celebration of Cricket!",
+      "body": "The MPL Eid Cricket Festival 2022 was a 5-day extravaganza of cricket, food, and community. Islamabad United won the knockout tournament, defeating Peshawar Zalmi in the final.\n\n\ud83d\udcf9 Tournament highlights: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\n\ud83d\udcf8 Event photos:\n\u2022 https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800\n\nOver 500 fans attended across the 3 days. The event featured live music, food stalls, and cricket clinics for youth players. A truly memorable Eid celebration!",
+      "publishedAt": "2022-07-14T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": "882c8297-dc9d-4af3-8942-be0652998fb8",
+      "title": "\ud83c\udfcf MPL Founding Day T20 \u2014 Where It All Began",
+      "body": "On March 15, 2022, MPL played its very first match \u2014 the Founding Day T20 exhibition game between Multan Sultans and Karachi Kings. Multan Sultans won by 4 runs in a thrilling finish.\n\n\ud83d\udcf9 Watch the historic first match: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nThis was the day MPL was born. From a single exhibition match, we have grown into a full multi-sport league with 6 teams, hundreds of players, and thousands of fans. Thank you for being part of this journey!\n\n\"Cricket is not just a sport, it is a community.\" \u2014 MPL Founder",
+      "publishedAt": "2022-03-16T00:00:00.000Z",
+      "imageUrl": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80"
+    }
+  ],
+  "archive": [
+    {
+      "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+      "name": "MPL T20 Inaugural Cup",
+      "format": "Round Robin + Final",
+      "season": 0,
+      "startDate": "2024-05-01T00:00:00.000Z",
+      "endDate": "2024-10-15T00:00:00.000Z",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "winner": {
+        "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+        "name": "Peshawar Zalmi"
+      },
+      "runnerUp": {
+        "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+        "name": "Quetta Gladiators"
+      },
+      "finalPointsTable": [
+        {
+          "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "teamName": "Peshawar Zalmi",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.375"
+        },
+        {
+          "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "teamName": "Quetta Gladiators",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.250"
+        },
+        {
+          "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "teamName": "Karachi Kings",
+          "played": 3,
+          "won": 2,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "teamName": "Multan Sultans",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "-0.050"
+        },
+        {
+          "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+          "teamName": "Lahore Lions",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.325"
+        },
+        {
+          "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "teamName": "Islamabad United",
+          "played": 2,
+          "won": 0,
+          "lost": 2,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.375"
+        }
+      ]
+    },
+    {
+      "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+      "name": "MPL Winter T20 Blast",
+      "format": "Round Robin",
+      "season": -1,
+      "startDate": "2023-11-01T00:00:00.000Z",
+      "endDate": "2024-01-31T00:00:00.000Z",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "winner": {
+        "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+        "name": "Karachi Kings"
+      },
+      "runnerUp": {
+        "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+        "name": "Peshawar Zalmi"
+      },
+      "finalPointsTable": [
+        {
+          "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "teamName": "Karachi Kings",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.575"
+        },
+        {
+          "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "teamName": "Peshawar Zalmi",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "0.275"
+        },
+        {
+          "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "teamName": "Quetta Gladiators",
+          "played": 1,
+          "won": 1,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "0.050"
+        },
+        {
+          "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "teamName": "Islamabad United",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.050"
+        },
+        {
+          "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+          "teamName": "Lahore Lions",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.800"
+        },
+        {
+          "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "teamName": "Multan Sultans",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.900"
+        }
+      ]
+    },
+    {
+      "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+      "name": "MPL Spring Cup 2023",
+      "format": "League + Final",
+      "season": -2,
+      "startDate": "2023-04-01T00:00:00.000Z",
+      "endDate": "2023-07-31T00:00:00.000Z",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "winner": {
+        "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+        "name": "Quetta Gladiators"
+      },
+      "runnerUp": {
+        "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+        "name": "Islamabad United"
+      },
+      "finalPointsTable": [
+        {
+          "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "teamName": "Quetta Gladiators",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.625"
+        },
+        {
+          "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "teamName": "Islamabad United",
+          "played": 1,
+          "won": 1,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "0.050"
+        },
+        {
+          "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "teamName": "Multan Sultans",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "-0.025"
+        },
+        {
+          "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "teamName": "Peshawar Zalmi",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.050"
+        },
+        {
+          "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "teamName": "Karachi Kings",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.600"
+        },
+        {
+          "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+          "teamName": "Lahore Lions",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.600"
+        }
+      ]
+    },
+    {
+      "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+      "name": "MPL Ramadan T20 Series",
+      "format": "Round Robin",
+      "season": -3,
+      "startDate": "2023-03-22T00:00:00.000Z",
+      "endDate": "2023-04-21T00:00:00.000Z",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "winner": {
+        "id": "e9891772-d0ef-450e-baba-fc486453c404",
+        "name": "Lahore Lions"
+      },
+      "runnerUp": {
+        "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+        "name": "Karachi Kings"
+      },
+      "finalPointsTable": [
+        {
+          "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+          "teamName": "Lahore Lions",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.250"
+        },
+        {
+          "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "teamName": "Karachi Kings",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "0.225"
+        },
+        {
+          "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "teamName": "Peshawar Zalmi",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "teamName": "Quetta Gladiators",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "teamName": "Islamabad United",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.350"
+        },
+        {
+          "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "teamName": "Multan Sultans",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.600"
+        }
+      ]
+    },
+    {
+      "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+      "name": "MPL Eid Cricket Festival",
+      "format": "Knockout",
+      "season": -4,
+      "startDate": "2022-07-09T00:00:00.000Z",
+      "endDate": "2022-07-13T00:00:00.000Z",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "winner": {
+        "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+        "name": "Islamabad United"
+      },
+      "runnerUp": {
+        "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+        "name": "Peshawar Zalmi"
+      },
+      "finalPointsTable": [
+        {
+          "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "teamName": "Islamabad United",
+          "played": 2,
+          "won": 2,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 4,
+          "nrr": "0.525"
+        },
+        {
+          "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "teamName": "Peshawar Zalmi",
+          "played": 2,
+          "won": 1,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "teamName": "Karachi Kings",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "teamName": "Multan Sultans",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "teamName": "Quetta Gladiators",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.400"
+        },
+        {
+          "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+          "teamName": "Lahore Lions",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.650"
+        }
+      ]
+    },
+    {
+      "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+      "name": "MPL Founding Day T20",
+      "format": "Exhibition",
+      "season": -5,
+      "startDate": "2022-03-15T00:00:00.000Z",
+      "endDate": "2022-03-15T00:00:00.000Z",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "winner": {
+        "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+        "name": "Multan Sultans"
+      },
+      "runnerUp": {
+        "id": "e9891772-d0ef-450e-baba-fc486453c404",
+        "name": "Lahore Lions"
+      },
+      "finalPointsTable": [
+        {
+          "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "teamName": "Multan Sultans",
+          "played": 1,
+          "won": 1,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 2,
+          "nrr": "0.200"
+        },
+        {
+          "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+          "teamName": "Lahore Lions",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "teamName": "Islamabad United",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "teamName": "Peshawar Zalmi",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "teamName": "Quetta Gladiators",
+          "played": 0,
+          "won": 0,
+          "lost": 0,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "0.000"
+        },
+        {
+          "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "teamName": "Karachi Kings",
+          "played": 1,
+          "won": 0,
+          "lost": 1,
+          "tied": 0,
+          "noResult": 0,
+          "points": 0,
+          "nrr": "-0.200"
+        }
+      ]
+    }
+  ],
+  "marketplaceTeams": [
+    {
+      "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+      "name": "Karachi Kings",
+      "logoUrl": "https://placehold.co/80x80/c8a84b/000?text=KK",
+      "homeVenue": "National Stadium, Karachi",
+      "purchasePrice": 200000,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket"
+      },
+      "tournaments": [
+        {
+          "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "name": "MPL T20 Championship"
+        },
+        {
+          "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "name": "MPL T20 Inaugural Cup"
+        },
+        {
+          "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "name": "MPL Winter T20 Blast"
+        },
+        {
+          "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "name": "MPL Spring Cup 2023"
+        },
+        {
+          "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "name": "MPL Ramadan T20 Series"
+        },
+        {
+          "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "name": "MPL Eid Cricket Festival"
+        },
+        {
+          "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "name": "MPL Founding Day T20"
+        }
+      ]
+    },
+    {
+      "id": "e9891772-d0ef-450e-baba-fc486453c404",
+      "name": "Lahore Lions",
+      "logoUrl": "https://placehold.co/80x80/1e40af/fff?text=LL",
+      "homeVenue": "Gaddafi Stadium, Lahore",
+      "purchasePrice": 200000,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket"
+      },
+      "tournaments": [
+        {
+          "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "name": "MPL T20 Championship"
+        },
+        {
+          "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "name": "MPL T20 Inaugural Cup"
+        },
+        {
+          "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "name": "MPL Winter T20 Blast"
+        },
+        {
+          "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "name": "MPL Spring Cup 2023"
+        },
+        {
+          "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "name": "MPL Ramadan T20 Series"
+        },
+        {
+          "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "name": "MPL Eid Cricket Festival"
+        },
+        {
+          "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "name": "MPL Founding Day T20"
+        }
+      ]
+    },
+    {
+      "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+      "name": "Islamabad United",
+      "logoUrl": "https://placehold.co/80x80/dc2626/fff?text=IU",
+      "homeVenue": "Rawalpindi Cricket Stadium",
+      "purchasePrice": 200000,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket"
+      },
+      "tournaments": [
+        {
+          "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "name": "MPL T20 Championship"
+        },
+        {
+          "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "name": "MPL T20 Inaugural Cup"
+        },
+        {
+          "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "name": "MPL Winter T20 Blast"
+        },
+        {
+          "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "name": "MPL Spring Cup 2023"
+        },
+        {
+          "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "name": "MPL Ramadan T20 Series"
+        },
+        {
+          "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "name": "MPL Eid Cricket Festival"
+        },
+        {
+          "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "name": "MPL Founding Day T20"
+        }
+      ]
+    },
+    {
+      "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+      "name": "Peshawar Zalmi",
+      "logoUrl": "https://placehold.co/80x80/f59e0b/000?text=PZ",
+      "homeVenue": "Arbab Niaz Stadium, Peshawar",
+      "purchasePrice": 200000,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket"
+      },
+      "tournaments": [
+        {
+          "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "name": "MPL T20 Championship"
+        },
+        {
+          "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "name": "MPL T20 Inaugural Cup"
+        },
+        {
+          "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "name": "MPL Winter T20 Blast"
+        },
+        {
+          "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "name": "MPL Spring Cup 2023"
+        },
+        {
+          "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "name": "MPL Ramadan T20 Series"
+        },
+        {
+          "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "name": "MPL Eid Cricket Festival"
+        },
+        {
+          "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "name": "MPL Founding Day T20"
+        }
+      ]
+    },
+    {
+      "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+      "name": "Quetta Gladiators",
+      "logoUrl": "https://placehold.co/80x80/7c3aed/fff?text=QG",
+      "homeVenue": "Bugti Stadium, Quetta",
+      "purchasePrice": 200000,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket"
+      },
+      "tournaments": [
+        {
+          "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "name": "MPL T20 Championship"
+        },
+        {
+          "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "name": "MPL T20 Inaugural Cup"
+        },
+        {
+          "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "name": "MPL Winter T20 Blast"
+        },
+        {
+          "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "name": "MPL Spring Cup 2023"
+        },
+        {
+          "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "name": "MPL Ramadan T20 Series"
+        },
+        {
+          "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "name": "MPL Eid Cricket Festival"
+        },
+        {
+          "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "name": "MPL Founding Day T20"
+        }
+      ]
+    },
+    {
+      "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+      "name": "Multan Sultans",
+      "logoUrl": "https://placehold.co/80x80/059669/fff?text=MS",
+      "homeVenue": "Multan Cricket Stadium",
+      "purchasePrice": 200000,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket"
+      },
+      "tournaments": [
+        {
+          "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "name": "MPL T20 Championship"
+        },
+        {
+          "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "name": "MPL T20 Inaugural Cup"
+        },
+        {
+          "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "name": "MPL Winter T20 Blast"
+        },
+        {
+          "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "name": "MPL Spring Cup 2023"
+        },
+        {
+          "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "name": "MPL Ramadan T20 Series"
+        },
+        {
+          "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "name": "MPL Eid Cricket Festival"
+        },
+        {
+          "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "name": "MPL Founding Day T20"
+        }
+      ]
+    }
+  ],
+  "cricketTournaments": [
+    {
+      "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+      "sportId": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "name": "MPL T20 Championship",
+      "format": "Round Robin + Knockout",
+      "startDate": "2025-05-01T00:00:00.000Z",
+      "endDate": "2025-10-31T00:00:00.000Z",
+      "status": "active",
+      "season": 1,
+      "createdAt": "2026-04-11T23:37:33.068Z",
+      "updatedAt": "2026-04-11T23:37:33.068Z"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "id": "upcoming-1",
+      "name": "MPL Champions Trophy 2026",
+      "format": "Round Robin + Knockout",
+      "season": 3,
+      "startDate": "2026-03-01T00:00:00.000Z",
+      "endDate": "2026-06-30T00:00:00.000Z",
+      "status": "upcoming",
+      "sport": {
+        "name": "Cricket",
+        "slug": "cricket"
+      }
+    },
+    {
+      "id": "upcoming-2",
+      "name": "MPL Paddle Premier League",
+      "format": "League + Final",
+      "season": 1,
+      "startDate": "2025-12-15T00:00:00.000Z",
+      "endDate": "2026-03-15T00:00:00.000Z",
+      "status": "upcoming",
+      "sport": {
+        "name": "Paddle",
+        "slug": "paddle"
+      }
+    },
+    {
+      "id": "upcoming-3",
+      "name": "MPL Hardball T30 Cup",
+      "format": "Round Robin",
+      "season": 2,
+      "startDate": "2025-11-01T00:00:00.000Z",
+      "endDate": "2026-02-28T00:00:00.000Z",
+      "status": "upcoming",
+      "sport": {
+        "name": "Cricket",
+        "slug": "cricket"
+      }
+    }
+  ],
+  "tournamentData": {
+    "tournament_7ee0aef2-6226-40c1-bdd6-52872f447bba": {
+      "id": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+      "name": "MPL T20 Championship",
+      "format": "Round Robin + Knockout",
+      "startDate": "2025-05-01T00:00:00.000Z",
+      "endDate": "2025-10-31T00:00:00.000Z",
+      "status": "active",
+      "season": 1,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "a6e83707-610e-467d-aa7f-ec6cb6cdfd68",
+          "scheduledAt": "2025-05-10T14:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "4545313d-20d5-4df8-9de8-01a4045be39c",
+          "scheduledAt": "2025-05-12T14:00:00.000Z",
+          "venue": "Rawalpindi Cricket Stadium",
+          "status": "completed",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          }
+        },
+        {
+          "id": "e38d34f9-ae46-4ca7-bb02-eb4374f07bac",
+          "scheduledAt": "2025-05-15T14:00:00.000Z",
+          "venue": "Bugti Stadium, Quetta",
+          "status": "completed",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          }
+        },
+        {
+          "id": "d2ac8e47-c40b-45e9-bcf8-b507aa5ec649",
+          "scheduledAt": "2025-05-18T14:00:00.000Z",
+          "venue": "Gaddafi Stadium, Lahore",
+          "status": "completed",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          }
+        },
+        {
+          "id": "cd2ff400-de1f-47e2-a55f-f388078401c0",
+          "scheduledAt": "2025-05-22T14:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          }
+        },
+        {
+          "id": "d5a94e0f-2264-4de4-aba0-5136e3048338",
+          "scheduledAt": "2025-05-25T14:00:00.000Z",
+          "venue": "Multan Cricket Stadium",
+          "status": "completed",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "c19e6ce1-5e5e-47af-9b48-501a14706b8a",
+          "scheduledAt": "2025-06-05T14:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "upcoming",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          }
+        },
+        {
+          "id": "425da4f0-4d77-481c-836c-e65b24986950",
+          "scheduledAt": "2025-06-08T14:00:00.000Z",
+          "venue": "Arbab Niaz Stadium, Peshawar",
+          "status": "upcoming",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          }
+        },
+        {
+          "id": "0ec6602d-e283-4bbc-89b1-a84871e26132",
+          "scheduledAt": "2025-06-12T14:00:00.000Z",
+          "venue": "Gaddafi Stadium, Lahore",
+          "status": "upcoming",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          }
+        },
+        {
+          "id": "d6b4bfd1-c3dc-4176-84ed-e16d031ff7cb",
+          "scheduledAt": "2025-06-15T14:00:00.000Z",
+          "venue": "Rawalpindi Cricket Stadium",
+          "status": "upcoming",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          }
+        },
+        {
+          "id": "2d4a8b07-cabe-4ef9-8d34-98326d1b5d9b",
+          "scheduledAt": "2025-06-19T14:00:00.000Z",
+          "venue": "Bugti Stadium, Quetta",
+          "status": "upcoming",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "a6204866-b2d2-4d45-8915-9d6bdb061f86",
+          "scheduledAt": "2025-06-22T14:00:00.000Z",
+          "venue": "Multan Cricket Stadium",
+          "status": "upcoming",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          }
+        }
+      ]
+    },
+    "fixtures_7ee0aef2-6226-40c1-bdd6-52872f447bba": {
+      "upcoming": [
+        {
+          "id": "c19e6ce1-5e5e-47af-9b48-501a14706b8a",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "scheduledAt": "2025-06-05T14:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "result": null
+        },
+        {
+          "id": "425da4f0-4d77-481c-836c-e65b24986950",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "scheduledAt": "2025-06-08T14:00:00.000Z",
+          "venue": "Arbab Niaz Stadium, Peshawar",
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "result": null
+        },
+        {
+          "id": "0ec6602d-e283-4bbc-89b1-a84871e26132",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "scheduledAt": "2025-06-12T14:00:00.000Z",
+          "venue": "Gaddafi Stadium, Lahore",
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "result": null
+        },
+        {
+          "id": "d6b4bfd1-c3dc-4176-84ed-e16d031ff7cb",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "scheduledAt": "2025-06-15T14:00:00.000Z",
+          "venue": "Rawalpindi Cricket Stadium",
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "result": null
+        },
+        {
+          "id": "2d4a8b07-cabe-4ef9-8d34-98326d1b5d9b",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2025-06-19T14:00:00.000Z",
+          "venue": "Bugti Stadium, Quetta",
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "result": null
+        },
+        {
+          "id": "a6204866-b2d2-4d45-8915-9d6bdb061f86",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "scheduledAt": "2025-06-22T14:00:00.000Z",
+          "venue": "Multan Cricket Stadium",
+          "status": "upcoming",
+          "homeScore": null,
+          "awayScore": null,
+          "result": null
+        }
+      ],
+      "live": [],
+      "completed": [
+        {
+          "id": "d5a94e0f-2264-4de4-aba0-5136e3048338",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2025-05-25T14:00:00.000Z",
+          "venue": "Multan Cricket Stadium",
+          "status": "completed",
+          "homeScore": "168/5 (20)",
+          "awayScore": "155/8 (20)",
+          "result": "Multan Sultans won by 13 runs"
+        },
+        {
+          "id": "cd2ff400-de1f-47e2-a55f-f388078401c0",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "scheduledAt": "2025-05-22T14:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "175/6 (20)",
+          "awayScore": "172/7 (20)",
+          "result": "Karachi Kings won by 3 runs"
+        },
+        {
+          "id": "d2ac8e47-c40b-45e9-bcf8-b507aa5ec649",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "scheduledAt": "2025-05-18T14:00:00.000Z",
+          "venue": "Gaddafi Stadium, Lahore",
+          "status": "completed",
+          "homeScore": "143/9 (20)",
+          "awayScore": "144/2 (16.4)",
+          "result": "Islamabad United won by 8 wickets"
+        },
+        {
+          "id": "e38d34f9-ae46-4ca7-bb02-eb4374f07bac",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "scheduledAt": "2025-05-15T14:00:00.000Z",
+          "venue": "Bugti Stadium, Quetta",
+          "status": "completed",
+          "homeScore": "201/5 (20)",
+          "awayScore": "178/6 (20)",
+          "result": "Quetta Gladiators won by 23 runs"
+        },
+        {
+          "id": "4545313d-20d5-4df8-9de8-01a4045be39c",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "scheduledAt": "2025-05-12T14:00:00.000Z",
+          "venue": "Rawalpindi Cricket Stadium",
+          "status": "completed",
+          "homeScore": "156/7 (20)",
+          "awayScore": "158/3 (18.2)",
+          "result": "Peshawar Zalmi won by 7 wickets"
+        },
+        {
+          "id": "a6e83707-610e-467d-aa7f-ec6cb6cdfd68",
+          "tournamentId": "7ee0aef2-6226-40c1-bdd6-52872f447bba",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2025-05-10T14:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "187/4 (20)",
+          "awayScore": "165/8 (20)",
+          "result": "Karachi Kings won by 22 runs"
+        }
+      ]
+    },
+    "points_table_7ee0aef2-6226-40c1-bdd6-52872f447bba": [
+      {
+        "teamId": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+        "teamName": "Karachi Kings",
+        "played": 2,
+        "won": 2,
+        "lost": 0,
+        "tied": 0,
+        "noResult": 0,
+        "points": 4,
+        "nrr": "0.625"
+      },
+      {
+        "teamId": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+        "teamName": "Quetta Gladiators",
+        "played": 1,
+        "won": 1,
+        "lost": 0,
+        "tied": 0,
+        "noResult": 0,
+        "points": 2,
+        "nrr": "1.150"
+      },
+      {
+        "teamId": "a5895370-14c3-464a-8bd5-5787685ea352",
+        "teamName": "Peshawar Zalmi",
+        "played": 2,
+        "won": 1,
+        "lost": 1,
+        "tied": 0,
+        "noResult": 0,
+        "points": 2,
+        "nrr": "0.364"
+      },
+      {
+        "teamId": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+        "teamName": "Islamabad United",
+        "played": 2,
+        "won": 1,
+        "lost": 1,
+        "tied": 0,
+        "noResult": 0,
+        "points": 2,
+        "nrr": "0.362"
+      },
+      {
+        "teamId": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+        "teamName": "Multan Sultans",
+        "played": 2,
+        "won": 1,
+        "lost": 1,
+        "tied": 0,
+        "noResult": 0,
+        "points": 2,
+        "nrr": "-0.250"
+      },
+      {
+        "teamId": "e9891772-d0ef-450e-baba-fc486453c404",
+        "teamName": "Lahore Lions",
+        "played": 3,
+        "won": 0,
+        "lost": 3,
+        "tied": 0,
+        "noResult": 0,
+        "points": 0,
+        "nrr": "-1.131"
+      }
+    ],
+    "tournament_4a565312-413e-4eb2-b40b-c8afa0c196a1": {
+      "id": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+      "name": "MPL T20 Inaugural Cup",
+      "format": "Round Robin + Final",
+      "startDate": "2024-05-01T00:00:00.000Z",
+      "endDate": "2024-10-15T00:00:00.000Z",
+      "status": "completed",
+      "season": 0,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "b59dcdd7-7e83-47d9-9c69-4318cf32fee6",
+          "scheduledAt": "2024-05-10T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          }
+        },
+        {
+          "id": "13c42e1c-1f3c-4092-a68c-d46b6c81d7cf",
+          "scheduledAt": "2024-05-14T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          }
+        },
+        {
+          "id": "2d51b2eb-9ce7-42ba-a05f-e6c8bb0f0da7",
+          "scheduledAt": "2024-05-18T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          }
+        },
+        {
+          "id": "494b9045-4a10-4487-a342-af8162d67962",
+          "scheduledAt": "2024-05-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "d358b64a-0ebc-4826-8751-7b5347917aa0",
+          "scheduledAt": "2024-06-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          }
+        },
+        {
+          "id": "0f3c6e99-c6f4-4f08-a627-a10f6473b05a",
+          "scheduledAt": "2024-06-05T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          }
+        },
+        {
+          "id": "ca85aef1-a9ba-448b-8431-ef1ff61f1687",
+          "scheduledAt": "2024-10-10T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          }
+        }
+      ]
+    },
+    "fixtures_4a565312-413e-4eb2-b40b-c8afa0c196a1": {
+      "upcoming": [],
+      "live": [],
+      "completed": [
+        {
+          "id": "ca85aef1-a9ba-448b-8431-ef1ff61f1687",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "scheduledAt": "2024-10-10T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "198/4 (20)",
+          "awayScore": "189/6 (20)",
+          "result": "Karachi Kings won the Inaugural Cup by 9 runs"
+        },
+        {
+          "id": "0f3c6e99-c6f4-4f08-a627-a10f6473b05a",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "scheduledAt": "2024-06-05T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "176/5 (20)",
+          "awayScore": "162/8 (20)",
+          "result": "Peshawar Zalmi won by 14 runs"
+        },
+        {
+          "id": "d358b64a-0ebc-4826-8751-7b5347917aa0",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "scheduledAt": "2024-06-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "147/9 (20)",
+          "awayScore": "148/3 (17.4)",
+          "result": "Quetta Gladiators won by 7 wickets"
+        },
+        {
+          "id": "494b9045-4a10-4487-a342-af8162d67962",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2024-05-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "183/5 (20)",
+          "awayScore": "171/7 (20)",
+          "result": "Multan Sultans won by 12 runs"
+        },
+        {
+          "id": "2d51b2eb-9ce7-42ba-a05f-e6c8bb0f0da7",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "scheduledAt": "2024-05-18T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "168/6 (20)",
+          "awayScore": "145/9 (20)",
+          "result": "Quetta Gladiators won by 23 runs"
+        },
+        {
+          "id": "13c42e1c-1f3c-4092-a68c-d46b6c81d7cf",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "scheduledAt": "2024-05-14T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "155/8 (20)",
+          "awayScore": "156/5 (19.2)",
+          "result": "Peshawar Zalmi won by 5 wickets"
+        },
+        {
+          "id": "b59dcdd7-7e83-47d9-9c69-4318cf32fee6",
+          "tournamentId": "4a565312-413e-4eb2-b40b-c8afa0c196a1",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "scheduledAt": "2024-05-10T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "192/4 (20)",
+          "awayScore": "178/7 (20)",
+          "result": "Karachi Kings won by 14 runs"
+        }
+      ]
+    },
+    "tournament_de7f0e24-9cb9-4c96-acf4-2ee35b592f9c": {
+      "id": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+      "name": "MPL Winter T20 Blast",
+      "format": "Round Robin",
+      "startDate": "2023-11-01T00:00:00.000Z",
+      "endDate": "2024-01-31T00:00:00.000Z",
+      "status": "completed",
+      "season": -1,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "47de0959-2810-4c18-a5c7-3c3cdd6549c0",
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "adff3ce5-8dae-4172-8c6f-854c39263850",
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          }
+        },
+        {
+          "id": "9a05168d-ed7e-4d21-aaa2-96ba53c81425",
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          }
+        },
+        {
+          "id": "5f393716-cecc-46e7-9d92-59f4aef74231",
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          }
+        }
+      ]
+    },
+    "fixtures_de7f0e24-9cb9-4c96-acf4-2ee35b592f9c": {
+      "upcoming": [],
+      "live": [],
+      "completed": [
+        {
+          "id": "47de0959-2810-4c18-a5c7-3c3cdd6549c0",
+          "tournamentId": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "178/5 (20)",
+          "awayScore": "162/8 (20)",
+          "result": "Karachi Kings won by 16 runs"
+        },
+        {
+          "id": "adff3ce5-8dae-4172-8c6f-854c39263850",
+          "tournamentId": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "145/9 (20)",
+          "awayScore": "146/4 (18.1)",
+          "result": "Quetta Gladiators won by 6 wickets"
+        },
+        {
+          "id": "9a05168d-ed7e-4d21-aaa2-96ba53c81425",
+          "tournamentId": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "189/4 (20)",
+          "awayScore": "171/7 (20)",
+          "result": "Peshawar Zalmi won by 18 runs"
+        },
+        {
+          "id": "5f393716-cecc-46e7-9d92-59f4aef74231",
+          "tournamentId": "de7f0e24-9cb9-4c96-acf4-2ee35b592f9c",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "scheduledAt": "2023-11-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "195/3 (20)",
+          "awayScore": "188/6 (20)",
+          "result": "Karachi Kings won by 7 runs"
+        }
+      ]
+    },
+    "tournament_b03c3c68-6303-4c64-8d2a-3f701e654090": {
+      "id": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+      "name": "MPL Spring Cup 2023",
+      "format": "League + Final",
+      "startDate": "2023-04-01T00:00:00.000Z",
+      "endDate": "2023-07-31T00:00:00.000Z",
+      "status": "completed",
+      "season": -2,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "370d174a-501a-4ff1-81b3-f7eb9fc6617a",
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          }
+        },
+        {
+          "id": "25d4dbde-40dd-4845-850f-ca08be44d9dd",
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "79358701-6420-49f2-bb06-e98cd755bcac",
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          }
+        },
+        {
+          "id": "b4020d89-4323-4968-a0c8-a41e72e7a4cc",
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          }
+        }
+      ]
+    },
+    "fixtures_b03c3c68-6303-4c64-8d2a-3f701e654090": {
+      "upcoming": [],
+      "live": [],
+      "completed": [
+        {
+          "id": "370d174a-501a-4ff1-81b3-f7eb9fc6617a",
+          "tournamentId": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "203/5 (20)",
+          "awayScore": "191/7 (20)",
+          "result": "Quetta Gladiators won by 12 runs"
+        },
+        {
+          "id": "25d4dbde-40dd-4845-850f-ca08be44d9dd",
+          "tournamentId": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "167/6 (20)",
+          "awayScore": "155/9 (20)",
+          "result": "Multan Sultans won by 12 runs"
+        },
+        {
+          "id": "79358701-6420-49f2-bb06-e98cd755bcac",
+          "tournamentId": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "158/7 (20)",
+          "awayScore": "159/3 (17.4)",
+          "result": "Islamabad United won by 7 wickets"
+        },
+        {
+          "id": "b4020d89-4323-4968-a0c8-a41e72e7a4cc",
+          "tournamentId": "b03c3c68-6303-4c64-8d2a-3f701e654090",
+          "homeTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "scheduledAt": "2023-04-01T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "185/4 (20)",
+          "awayScore": "172/8 (20)",
+          "result": "Quetta Gladiators won the Spring Cup by 13 runs"
+        }
+      ]
+    },
+    "tournament_56a74508-d56e-4f36-8932-91c1ca21dd88": {
+      "id": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+      "name": "MPL Ramadan T20 Series",
+      "format": "Round Robin",
+      "startDate": "2023-03-22T00:00:00.000Z",
+      "endDate": "2023-04-21T00:00:00.000Z",
+      "status": "completed",
+      "season": -3,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "1044e1bd-610a-42ca-a714-576f32414c20",
+          "scheduledAt": "2023-03-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          }
+        },
+        {
+          "id": "52adaa87-6433-4289-927d-5c6e444ed6a9",
+          "scheduledAt": "2023-03-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          }
+        },
+        {
+          "id": "71b6d0a0-ff3b-4fb2-801f-8812ea177749",
+          "scheduledAt": "2023-03-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          }
+        }
+      ]
+    },
+    "fixtures_56a74508-d56e-4f36-8932-91c1ca21dd88": {
+      "upcoming": [],
+      "live": [],
+      "completed": [
+        {
+          "id": "1044e1bd-610a-42ca-a714-576f32414c20",
+          "tournamentId": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "scheduledAt": "2023-03-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "172/5 (20)",
+          "awayScore": "165/7 (20)",
+          "result": "Lahore Lions won by 7 runs"
+        },
+        {
+          "id": "52adaa87-6433-4289-927d-5c6e444ed6a9",
+          "tournamentId": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "homeTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "awayTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "scheduledAt": "2023-03-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "188/4 (20)",
+          "awayScore": "176/6 (20)",
+          "result": "Karachi Kings won by 12 runs"
+        },
+        {
+          "id": "71b6d0a0-ff3b-4fb2-801f-8812ea177749",
+          "tournamentId": "56a74508-d56e-4f36-8932-91c1ca21dd88",
+          "homeTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "scheduledAt": "2023-03-22T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "161/8 (20)",
+          "awayScore": "158/9 (20)",
+          "result": "Lahore Lions won the Ramadan Series by 3 runs"
+        }
+      ]
+    },
+    "tournament_cc8fc6f5-dfbb-4584-9563-dd7c87f608a7": {
+      "id": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+      "name": "MPL Eid Cricket Festival",
+      "format": "Knockout",
+      "startDate": "2022-07-09T00:00:00.000Z",
+      "endDate": "2022-07-13T00:00:00.000Z",
+      "status": "completed",
+      "season": -4,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "aad8b8f4-999e-452f-83f3-cb761380e3b7",
+          "scheduledAt": "2022-07-09T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          }
+        },
+        {
+          "id": "a5e59609-1519-4a53-bc42-7370f2b658d4",
+          "scheduledAt": "2022-07-09T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          }
+        },
+        {
+          "id": "571618a9-3c89-4a68-9976-4202daf20cdd",
+          "scheduledAt": "2022-07-09T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          }
+        }
+      ]
+    },
+    "fixtures_cc8fc6f5-dfbb-4584-9563-dd7c87f608a7": {
+      "upcoming": [],
+      "live": [],
+      "completed": [
+        {
+          "id": "aad8b8f4-999e-452f-83f3-cb761380e3b7",
+          "tournamentId": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "scheduledAt": "2022-07-09T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "176/6 (20)",
+          "awayScore": "163/8 (20)",
+          "result": "Islamabad United won by 13 runs"
+        },
+        {
+          "id": "a5e59609-1519-4a53-bc42-7370f2b658d4",
+          "tournamentId": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "homeTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "awayTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "scheduledAt": "2022-07-09T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "182/5 (20)",
+          "awayScore": "174/7 (20)",
+          "result": "Peshawar Zalmi won by 8 runs"
+        },
+        {
+          "id": "571618a9-3c89-4a68-9976-4202daf20cdd",
+          "tournamentId": "cc8fc6f5-dfbb-4584-9563-dd7c87f608a7",
+          "homeTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "awayTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "scheduledAt": "2022-07-09T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "191/4 (20)",
+          "awayScore": "183/6 (20)",
+          "result": "Islamabad United won the Eid Festival by 8 runs"
+        }
+      ]
+    },
+    "tournament_feedeaa6-75ab-4ecd-828c-3727e4af44ee": {
+      "id": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+      "name": "MPL Founding Day T20",
+      "format": "Exhibition",
+      "startDate": "2022-03-15T00:00:00.000Z",
+      "endDate": "2022-03-15T00:00:00.000Z",
+      "status": "completed",
+      "season": -5,
+      "sport": {
+        "id": "8c7bf662-1977-40a5-99a5-fd8dc3ff5c03",
+        "name": "Cricket",
+        "slug": "cricket",
+        "isActive": true,
+        "createdAt": "2026-04-11T22:46:57.475Z"
+      },
+      "teams": [
+        {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        }
+      ],
+      "fixtures": [
+        {
+          "id": "cc3d7c85-ecbd-4657-a329-1c7d7b5385ad",
+          "scheduledAt": "2022-03-15T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          }
+        }
+      ]
+    },
+    "fixtures_feedeaa6-75ab-4ecd-828c-3727e4af44ee": {
+      "upcoming": [],
+      "live": [],
+      "completed": [
+        {
+          "id": "cc3d7c85-ecbd-4657-a329-1c7d7b5385ad",
+          "tournamentId": "feedeaa6-75ab-4ecd-828c-3727e4af44ee",
+          "homeTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "awayTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "scheduledAt": "2022-03-15T00:00:00.000Z",
+          "venue": "National Stadium, Karachi",
+          "status": "completed",
+          "homeScore": "169/6 (20)",
+          "awayScore": "165/7 (20)",
+          "result": "Multan Sultans won the Founding Day match by 4 runs"
+        }
+      ]
+    }
+  },
+  "scorecards": {
+    "d2ac8e47-c40b-45e9-bcf8-b507aa5ec649": {
+      "fixture": {
+        "id": "d2ac8e47-c40b-45e9-bcf8-b507aa5ec649",
+        "status": "completed",
+        "homeTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "awayTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "homeScore": "143/9 (20)",
+        "awayScore": "144/2 (16.4)",
+        "result": "Islamabad United won by 8 wickets"
+      },
+      "innings": [
+        {
+          "id": "94b1c070-c454-4d69-a357-2f3b38c59eb3",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 143,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "a88f366a-002c-4630-b923-75a87fa8cba2",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 144,
+          "wickets": 7,
+          "overs": "16.4",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "52adaa87-6433-4289-927d-5c6e444ed6a9": {
+      "fixture": {
+        "id": "52adaa87-6433-4289-927d-5c6e444ed6a9",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "homeScore": "188/4 (20)",
+        "awayScore": "176/6 (20)",
+        "result": "Karachi Kings won by 12 runs"
+      },
+      "innings": [
+        {
+          "id": "e542f7a9-4c30-4619-ae65-249cf7f5cf99",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 188,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "5e79808d-97fc-4ee3-b203-66e193ca6254",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 176,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "571618a9-3c89-4a68-9976-4202daf20cdd": {
+      "fixture": {
+        "id": "571618a9-3c89-4a68-9976-4202daf20cdd",
+        "status": "completed",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "homeScore": "191/4 (20)",
+        "awayScore": "183/6 (20)",
+        "result": "Islamabad United won the Eid Festival by 8 runs"
+      },
+      "innings": [
+        {
+          "id": "3d829e15-a021-45b7-b0c2-9b8d0a313d36",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 191,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "f3e4a864-f7ec-49f9-beb5-379338d9ab93",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 183,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "cd2ff400-de1f-47e2-a55f-f388078401c0": {
+      "fixture": {
+        "id": "cd2ff400-de1f-47e2-a55f-f388078401c0",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "homeScore": "175/6 (20)",
+        "awayScore": "172/7 (20)",
+        "result": "Karachi Kings won by 3 runs"
+      },
+      "innings": [
+        {
+          "id": "21ed15c7-3304-46e2-9a5b-c1c04e2e6485",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 175,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "56154040-9304-4a40-a20e-293f22dca6fc",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 172,
+          "wickets": 7,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "b4020d89-4323-4968-a0c8-a41e72e7a4cc": {
+      "fixture": {
+        "id": "b4020d89-4323-4968-a0c8-a41e72e7a4cc",
+        "status": "completed",
+        "homeTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "homeScore": "185/4 (20)",
+        "awayScore": "172/8 (20)",
+        "result": "Quetta Gladiators won the Spring Cup by 13 runs"
+      },
+      "innings": [
+        {
+          "id": "3654b4a2-5ac4-4502-93b2-8d9c6e8a2921",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 185,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "819582ad-f1b8-408b-b3d8-f9b16c6e694e",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 172,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "47de0959-2810-4c18-a5c7-3c3cdd6549c0": {
+      "fixture": {
+        "id": "47de0959-2810-4c18-a5c7-3c3cdd6549c0",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": "178/5 (20)",
+        "awayScore": "162/8 (20)",
+        "result": "Karachi Kings won by 16 runs"
+      },
+      "innings": [
+        {
+          "id": "42b16c57-c400-48cd-80d0-e5638d035198",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 178,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "0e7899ee-8c44-4905-8525-59cb97f938af",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 162,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "a5e59609-1519-4a53-bc42-7370f2b658d4": {
+      "fixture": {
+        "id": "a5e59609-1519-4a53-bc42-7370f2b658d4",
+        "status": "completed",
+        "homeTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "awayTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "homeScore": "182/5 (20)",
+        "awayScore": "174/7 (20)",
+        "result": "Peshawar Zalmi won by 8 runs"
+      },
+      "innings": [
+        {
+          "id": "80873929-d556-4215-94a8-408869f8eb10",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 182,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "0d6c4671-02c4-46dd-9284-0a97d473bb5e",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 174,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "d358b64a-0ebc-4826-8751-7b5347917aa0": {
+      "fixture": {
+        "id": "d358b64a-0ebc-4826-8751-7b5347917aa0",
+        "status": "completed",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "homeScore": "147/9 (20)",
+        "awayScore": "148/3 (17.4)",
+        "result": "Quetta Gladiators won by 7 wickets"
+      },
+      "innings": [
+        {
+          "id": "42d1ca00-0e12-4616-b876-227836542a65",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 147,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "60278eff-1b6a-4ca3-a1e8-1c9be8f2402a",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 148,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "13c42e1c-1f3c-4092-a68c-d46b6c81d7cf": {
+      "fixture": {
+        "id": "13c42e1c-1f3c-4092-a68c-d46b6c81d7cf",
+        "status": "completed",
+        "homeTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "awayTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "homeScore": "155/8 (20)",
+        "awayScore": "156/5 (19.2)",
+        "result": "Peshawar Zalmi won by 5 wickets"
+      },
+      "innings": [
+        {
+          "id": "93498419-ab10-45f4-985e-62f25de261a2",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 155,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "b15df0f4-2732-4d7b-ae15-028fc4fc6ae8",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 156,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "494b9045-4a10-4487-a342-af8162d67962": {
+      "fixture": {
+        "id": "494b9045-4a10-4487-a342-af8162d67962",
+        "status": "completed",
+        "homeTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": "183/5 (20)",
+        "awayScore": "171/7 (20)",
+        "result": "Multan Sultans won by 12 runs"
+      },
+      "innings": [
+        {
+          "id": "0cf6d8cb-ec20-4243-9f06-0516858b8ccd",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 183,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "a3d03138-367b-46d9-826f-5925a53ba90a",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 171,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "4545313d-20d5-4df8-9de8-01a4045be39c": {
+      "fixture": {
+        "id": "4545313d-20d5-4df8-9de8-01a4045be39c",
+        "status": "completed",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "homeScore": "156/7 (20)",
+        "awayScore": "158/3 (18.2)",
+        "result": "Peshawar Zalmi won by 7 wickets"
+      },
+      "innings": [
+        {
+          "id": "0535a666-da9d-441e-8765-a052ce0895d2",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 156,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "bacdfafe-5ddd-4af7-88a9-f21d97630b21",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 158,
+          "wickets": 7,
+          "overs": "18.2",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "a6204866-b2d2-4d45-8915-9d6bdb061f86": {
+      "fixture": {
+        "id": "a6204866-b2d2-4d45-8915-9d6bdb061f86",
+        "status": "upcoming",
+        "homeTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "awayTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "result": null
+      },
+      "innings": [],
+      "currentBowlerFigures": null
+    },
+    "2d4a8b07-cabe-4ef9-8d34-98326d1b5d9b": {
+      "fixture": {
+        "id": "2d4a8b07-cabe-4ef9-8d34-98326d1b5d9b",
+        "status": "upcoming",
+        "homeTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "result": null
+      },
+      "innings": [],
+      "currentBowlerFigures": null
+    },
+    "25d4dbde-40dd-4845-850f-ca08be44d9dd": {
+      "fixture": {
+        "id": "25d4dbde-40dd-4845-850f-ca08be44d9dd",
+        "status": "completed",
+        "homeTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": "167/6 (20)",
+        "awayScore": "155/9 (20)",
+        "result": "Multan Sultans won by 12 runs"
+      },
+      "innings": [
+        {
+          "id": "d96d5df2-a63d-4c3b-bf6b-5ea6e44d8aab",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 167,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "a4f29404-2196-4065-9c9b-872102fda68c",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 155,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "cc3d7c85-ecbd-4657-a329-1c7d7b5385ad": {
+      "fixture": {
+        "id": "cc3d7c85-ecbd-4657-a329-1c7d7b5385ad",
+        "status": "completed",
+        "homeTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "awayTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "homeScore": "169/6 (20)",
+        "awayScore": "165/7 (20)",
+        "result": "Multan Sultans won the Founding Day match by 4 runs"
+      },
+      "innings": [
+        {
+          "id": "941d580d-7ad7-421d-b198-2b0dff224363",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 169,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "1c0a125e-db11-4b22-abfd-f4fbeef5f024",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 165,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "b59dcdd7-7e83-47d9-9c69-4318cf32fee6": {
+      "fixture": {
+        "id": "b59dcdd7-7e83-47d9-9c69-4318cf32fee6",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "homeScore": "192/4 (20)",
+        "awayScore": "178/7 (20)",
+        "result": "Karachi Kings won by 14 runs"
+      },
+      "innings": [
+        {
+          "id": "cb7f25f8-b009-46c1-a280-815afca28f1f",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 192,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "c9ba839c-324a-4c13-ab64-1c0dcd4fc8d2",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 178,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "ca85aef1-a9ba-448b-8431-ef1ff61f1687": {
+      "fixture": {
+        "id": "ca85aef1-a9ba-448b-8431-ef1ff61f1687",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "homeScore": "198/4 (20)",
+        "awayScore": "189/6 (20)",
+        "result": "Karachi Kings won the Inaugural Cup by 9 runs"
+      },
+      "innings": [
+        {
+          "id": "9c2ac7bf-74b5-468c-9a6c-39cd22a0cdad",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 198,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "40f004b1-151a-4e76-a48f-85fa5af04058",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 189,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "9a05168d-ed7e-4d21-aaa2-96ba53c81425": {
+      "fixture": {
+        "id": "9a05168d-ed7e-4d21-aaa2-96ba53c81425",
+        "status": "completed",
+        "homeTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "homeScore": "189/4 (20)",
+        "awayScore": "171/7 (20)",
+        "result": "Peshawar Zalmi won by 18 runs"
+      },
+      "innings": [
+        {
+          "id": "d2b33c23-202b-4522-911f-b10798a1966a",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 189,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "20db974f-037f-4796-8ad0-94c7d4a780b3",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 171,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "a6e83707-610e-467d-aa7f-ec6cb6cdfd68": {
+      "fixture": {
+        "id": "a6e83707-610e-467d-aa7f-ec6cb6cdfd68",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": "187/4 (20)",
+        "awayScore": "165/8 (20)",
+        "result": "Karachi Kings won by 22 runs"
+      },
+      "innings": [
+        {
+          "id": "34f9d551-bae2-4405-8ced-42ad5dc43ef1",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 187,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "40fba37b-ee57-4fb1-bcd7-73179d64aa8c",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 165,
+          "wickets": 7,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "aad8b8f4-999e-452f-83f3-cb761380e3b7": {
+      "fixture": {
+        "id": "aad8b8f4-999e-452f-83f3-cb761380e3b7",
+        "status": "completed",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": "176/6 (20)",
+        "awayScore": "163/8 (20)",
+        "result": "Islamabad United won by 13 runs"
+      },
+      "innings": [
+        {
+          "id": "2fd9ba63-66fc-4d00-81aa-365031a0f9a2",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 176,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "a1336401-6317-4c0f-a0ae-1b3b330acaea",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 163,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "c19e6ce1-5e5e-47af-9b48-501a14706b8a": {
+      "fixture": {
+        "id": "c19e6ce1-5e5e-47af-9b48-501a14706b8a",
+        "status": "upcoming",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "result": null
+      },
+      "innings": [],
+      "currentBowlerFigures": null
+    },
+    "370d174a-501a-4ff1-81b3-f7eb9fc6617a": {
+      "fixture": {
+        "id": "370d174a-501a-4ff1-81b3-f7eb9fc6617a",
+        "status": "completed",
+        "homeTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "awayTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "homeScore": "203/5 (20)",
+        "awayScore": "191/7 (20)",
+        "result": "Quetta Gladiators won by 12 runs"
+      },
+      "innings": [
+        {
+          "id": "2147dff4-905e-4b2d-b5fe-eafbc16888f6",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 203,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "684a5ca3-17cb-4fc9-8ba6-301fde8d2233",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 191,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "425da4f0-4d77-481c-836c-e65b24986950": {
+      "fixture": {
+        "id": "425da4f0-4d77-481c-836c-e65b24986950",
+        "status": "upcoming",
+        "homeTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "awayTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "result": null
+      },
+      "innings": [],
+      "currentBowlerFigures": null
+    },
+    "79358701-6420-49f2-bb06-e98cd755bcac": {
+      "fixture": {
+        "id": "79358701-6420-49f2-bb06-e98cd755bcac",
+        "status": "completed",
+        "homeTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "awayTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "homeScore": "158/7 (20)",
+        "awayScore": "159/3 (17.4)",
+        "result": "Islamabad United won by 7 wickets"
+      },
+      "innings": [
+        {
+          "id": "c3c3b0ff-4766-4d55-b628-7611a3a7c214",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 158,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "9e810449-bebe-4e88-a707-afbe4ffeffc4",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 159,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "0f3c6e99-c6f4-4f08-a627-a10f6473b05a": {
+      "fixture": {
+        "id": "0f3c6e99-c6f4-4f08-a627-a10f6473b05a",
+        "status": "completed",
+        "homeTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "homeScore": "176/5 (20)",
+        "awayScore": "162/8 (20)",
+        "result": "Peshawar Zalmi won by 14 runs"
+      },
+      "innings": [
+        {
+          "id": "71be4121-acd6-4e46-bcf2-17cfbf9b460b",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 176,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "eeb955fe-0e10-4010-863e-f6541c03a472",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 162,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "d5a94e0f-2264-4de4-aba0-5136e3048338": {
+      "fixture": {
+        "id": "d5a94e0f-2264-4de4-aba0-5136e3048338",
+        "status": "completed",
+        "homeTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "awayTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "homeScore": "168/5 (20)",
+        "awayScore": "155/8 (20)",
+        "result": "Multan Sultans won by 13 runs"
+      },
+      "innings": [
+        {
+          "id": "01b5158c-aa1d-4521-8607-d9cd876d6e62",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 168,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "2fc9163f-c60b-4079-81b0-c167e7d694e5",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 155,
+          "wickets": 7,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "71b6d0a0-ff3b-4fb2-801f-8812ea177749": {
+      "fixture": {
+        "id": "71b6d0a0-ff3b-4fb2-801f-8812ea177749",
+        "status": "completed",
+        "homeTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "awayTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "homeScore": "161/8 (20)",
+        "awayScore": "158/9 (20)",
+        "result": "Lahore Lions won the Ramadan Series by 3 runs"
+      },
+      "innings": [
+        {
+          "id": "60057229-b52b-4473-8a13-9dc61146ea2a",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 161,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "2373815e-dd92-4136-bb1a-df7252b80f66",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 158,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "5f393716-cecc-46e7-9d92-59f4aef74231": {
+      "fixture": {
+        "id": "5f393716-cecc-46e7-9d92-59f4aef74231",
+        "status": "completed",
+        "homeTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "awayTeam": {
+          "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+          "name": "Peshawar Zalmi"
+        },
+        "homeScore": "195/3 (20)",
+        "awayScore": "188/6 (20)",
+        "result": "Karachi Kings won by 7 runs"
+      },
+      "innings": [
+        {
+          "id": "c38f4e5a-1057-4822-9d74-33288e8e947f",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "runs": 195,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "8d877a9f-1500-4fdc-8d45-3a7f556cec45",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "a5895370-14c3-464a-8bd5-5787685ea352",
+            "name": "Peshawar Zalmi"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 188,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "d6b4bfd1-c3dc-4176-84ed-e16d031ff7cb": {
+      "fixture": {
+        "id": "d6b4bfd1-c3dc-4176-84ed-e16d031ff7cb",
+        "status": "upcoming",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "result": null
+      },
+      "innings": [],
+      "currentBowlerFigures": null
+    },
+    "e38d34f9-ae46-4ca7-bb02-eb4374f07bac": {
+      "fixture": {
+        "id": "e38d34f9-ae46-4ca7-bb02-eb4374f07bac",
+        "status": "completed",
+        "homeTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "homeScore": "201/5 (20)",
+        "awayScore": "178/6 (20)",
+        "result": "Quetta Gladiators won by 23 runs"
+      },
+      "innings": [
+        {
+          "id": "c1e03315-4113-496a-9344-699e5d9830b6",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "runs": 201,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "c7d8c571-1235-49fd-89d8-4ecab9396fb9",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+            "name": "Multan Sultans"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 178,
+          "wickets": 7,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "1044e1bd-610a-42ca-a714-576f32414c20": {
+      "fixture": {
+        "id": "1044e1bd-610a-42ca-a714-576f32414c20",
+        "status": "completed",
+        "homeTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "awayTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "homeScore": "172/5 (20)",
+        "awayScore": "165/7 (20)",
+        "result": "Lahore Lions won by 7 runs"
+      },
+      "innings": [
+        {
+          "id": "ee9e607d-6891-4470-ae06-908585966278",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 172,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "a923fbf9-2286-4cbf-bb5c-ccbe6d9f4f00",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "e9891772-d0ef-450e-baba-fc486453c404",
+            "name": "Lahore Lions"
+          },
+          "runs": 165,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "0ec6602d-e283-4bbc-89b1-a84871e26132": {
+      "fixture": {
+        "id": "0ec6602d-e283-4bbc-89b1-a84871e26132",
+        "status": "upcoming",
+        "homeTeam": {
+          "id": "e9891772-d0ef-450e-baba-fc486453c404",
+          "name": "Lahore Lions"
+        },
+        "awayTeam": {
+          "id": "dce68c7e-ac7d-472c-acdf-10974c9cd8d9",
+          "name": "Multan Sultans"
+        },
+        "homeScore": null,
+        "awayScore": null,
+        "result": null
+      },
+      "innings": [],
+      "currentBowlerFigures": null
+    },
+    "2d51b2eb-9ce7-42ba-a05f-e6c8bb0f0da7": {
+      "fixture": {
+        "id": "2d51b2eb-9ce7-42ba-a05f-e6c8bb0f0da7",
+        "status": "completed",
+        "homeTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "awayTeam": {
+          "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+          "name": "Karachi Kings"
+        },
+        "homeScore": "168/6 (20)",
+        "awayScore": "145/9 (20)",
+        "result": "Quetta Gladiators won by 23 runs"
+      },
+      "innings": [
+        {
+          "id": "00d3b192-46fa-4cda-9d29-b59172884bf4",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "runs": 168,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "46040f88-2847-44ba-83bf-be8ed230d30b",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "00d1c510-523f-45bc-b2be-f93b64fd8bd0",
+            "name": "Karachi Kings"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 145,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    },
+    "adff3ce5-8dae-4172-8c6f-854c39263850": {
+      "fixture": {
+        "id": "adff3ce5-8dae-4172-8c6f-854c39263850",
+        "status": "completed",
+        "homeTeam": {
+          "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+          "name": "Islamabad United"
+        },
+        "awayTeam": {
+          "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+          "name": "Quetta Gladiators"
+        },
+        "homeScore": "145/9 (20)",
+        "awayScore": "146/4 (18.1)",
+        "result": "Quetta Gladiators won by 6 wickets"
+      },
+      "innings": [
+        {
+          "id": "8e83db67-5518-4e6b-be0c-1db8836941c0",
+          "inningsNumber": 1,
+          "battingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "bowlingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "runs": 145,
+          "wickets": 5,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        },
+        {
+          "id": "46fb8753-319e-4168-8a4e-30d804a80a62",
+          "inningsNumber": 2,
+          "battingTeam": {
+            "id": "2a2a1ed8-4b6a-45d4-a151-15830a77f92e",
+            "name": "Quetta Gladiators"
+          },
+          "bowlingTeam": {
+            "id": "787f3766-b92d-41cf-bc75-df40c2bd5a68",
+            "name": "Islamabad United"
+          },
+          "runs": 146,
+          "wickets": 6,
+          "overs": "20.0",
+          "isComplete": true,
+          "commentary": []
+        }
+      ],
+      "currentBowlerFigures": null
+    }
+  }
+}
